@@ -27,11 +27,11 @@ Using the `gcloud` command line tool, issue the following command to deploy the 
 
 ## Security
 
-Grant the role Cloud Function Invoker to the service identity account that is associated with Dialogflow. If you haven't already created one, do so with this command:
+When Dialogflow CX/ES calls the Cloud Function webhook, it will need to be authorised using a service identity account. As a result, you need to grant the role Cloud Function Invoker to the service identity account that is associated with Dialogflow. If you haven't already created one, do so with this command:
 
 `gcloud beta services identity create --service=dialogflow.googleapis.com --project=project-name`
 
-This should return with an identity that you can then refer to in IAM to grant the Cloud Function Invoker role.
+Where project-name is the name of the project hosting your Dialogflow agent(s). This should return with an identity that you can then refer to in IAM to grant the Cloud Function Invoker role.
 
 ## Testing
 
