@@ -58,11 +58,11 @@ See the [alphanumeric transcriber pre-built agent](assets/sample-agent/sample_cx
 
 Example webhook configuration in Dialogflow CX:
 
-![https://github.com/pakmingwCorp/dialogflow-alphanumeric-transcriber/blob/main/assets/img/webhook_configuration.png]
+![Webhook Configuration](https://github.com/pakmingwCorp/dialogflow-alphanumeric-transcriber/blob/main/assets/img/webhook_configuration.png)
 
 Example webhook call with appropriate tag in Dialogflow CX:
 
-![https://github.com/pakmingwCorp/dialogflow-alphanumeric-transcriber/blob/main/assets/img/webhook_tag.png]
+![Webhook Tag Configuration](https://github.com/pakmingwCorp/dialogflow-alphanumeric-transcriber/blob/main/assets/img/webhook_tag.png)
 
 ### Dialogflow ES Specific Instructions
 
