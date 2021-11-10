@@ -1,0 +1,13 @@
+{
+    "fulfillmentInfo": {
+        "tag": "phonetics_processor" 
+    },
+    "pageInfo": {
+        "formInfo": {
+            "parameterInfo": [
+                {"displayName": "phrase",
+                "value": "one alpha two bravo three charlie" }
+            ]
+        }
+    }
+}

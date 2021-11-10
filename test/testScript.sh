@@ -1,0 +1,2 @@
+gcloud functions call alphanumeric-transcriber --data '{"fulfillmentInfo": {"tag": "dialogflow-es" },"queryResult": {"parameters": {"any": "one alpha two bravo three charlie"},"intent": {"displayName": "phonetic_recognizer"}},"session": "sessionId"}'
+gcloud functions call alphanumeric-transcriber --data '{"fulfillmentInfo": {"tag": "phonetics_processor" },"pageInfo": {"formInfo": {"parameterInfo": [{"displayName": "phrase","value": "one alpha two bravo three charlie" }]}}}'

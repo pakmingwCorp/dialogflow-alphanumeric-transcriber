@@ -1,0 +1,14 @@
+{
+    "fulfillmentInfo": {
+        "tag": "dialogflow-es" 
+    },
+    "queryResult": {
+        "parameters": {
+            "any": "one alpha two bravo three charlie"
+        },
+        "intent": {
+            "displayName": "phonetic_recognizer"
+        }
+    },
+    "session": "sessionId"
+}
